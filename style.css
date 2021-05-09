@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: pink;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b1{
+    color: #ff0000;
+padding: 10px 25px;
+background:black;
+border: 1px solid rgb(0, 255, 247);
+border-radius: 20px;
+outline: none;
+cursor: pointer;
+}
+.content{
+    color: #ffae00;
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size:50px;
+}
+.size{
+  font-size: 70px;
+    color: rgb(17, 0, 255);
+}
+.cont{
+    color: #ff0000;
+    position: absolute;
+    top: 39%;
+    left: 39%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size:40px;
+    outline: none;
+}
+.Time{
+   
+        color: #c73bb4;
+        position: absolute;
+        top: 49%;
+        left: 9%;
+        transform: translateY(-50%);
+        z-index: 2;
+        font-size:30px;
+
+   
+    
+}
+.h1{
+width: 200px;
+height: 150px;
+position: absolute;
+top: 60%;
+left: 15%;
+}
+.h2{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    }
+    .h3{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: 60%;
+        left: 75%;
+        }
+        .h4{
+            width: 200px;
+            height: 150px;
+            position: absolute;
+            top: 85%;
+            left: 15%;
+            }
+            .h5{
+                width: 200px;
+                height: 150px;
+                position: absolute;
+                top: 85%;
+                left: 45%;
+                }
+                .h6{
+                    width: 200px;
+                    height: 150px;
+                    position: absolute;
+                    top: 85%;
+                    left: 75%;
+}
+.side-bar{
+    width: 5000px;
+     height: 100;
+    background: linear-gradient(#949e9f,#9a8383);
+    position:absolute;
+    right: 0;
+    top: 110%;
+ }
+ .menu{
+   display: block;
+       width: 25px;
+     margin: 40px auto 0;
+     cursor: pointer;
+      }
+    .social-links img, .useful-links img{
+    width: 25px;
+ margin: 5px auto;
+ cursor: pointer;
+    }
+    .social-links{
+       width: 50px;
+     text-align: center;
+    position: absolute;
+   top: 50%;
+    transform: translateY(-100%);
+     }
+      .useful-links{
+     width: 50px;
+    text-align: center;
+   position: absolute;
+  bottom: 30px;
+ }                  
+.t{
+    border-left: 5px solid rgb(49, 35, 35);
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.VEGES{
+  color: rgb(125, 125, 216);
+    position: absolute;
+    top: 59%;
+    left: 19%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size:60px;
+}
+.img1{
+
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+.bubbles img{
+ width: 100px;
+    animation: bubble 8s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    10%{
+        
+        opacity: 0.2;
+    }  20%{
+        
+        opacity: 0.4;
+    }  30%{
+        
+        opacity: 0.6;
+    }  40%{
+        
+        opacity: 0.8;
+    }  50%{
+        
+        opacity: 1;
+    }
+    60%{
+        
+        opacity: 0.8;
+    }
+    70%{
+       
+        opacity: 0.6;
+    }
+    80%{
+       
+        opacity: 0;
+    }  90%{
+       
+        opacity: 0;
+    }  100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width:100x;
+    
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width:25px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+}.bubbles img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+    width:20px;
+    animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+    width:35px;
+    animation-delay: 7s;
+}
+.bubbles img:nth-child(8){
+    width:35px;
+    animation-delay: 5.5s;
+}.bubbles img:nth-child(9){
+    width:35px;
+    animation-delay: 4.1s;
+}.bubbles img:nth-child(10){
+    width:35px;
+    animation-delay: 8 s;
+}
